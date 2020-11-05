@@ -5,5 +5,9 @@ export class BlogContext {
     AuthorSite: string;
     Home: string;
     PublishedDate: string;
-    Content: any;
+    Content: any[];
+    About: string;
+    BlogPage: string;
+    MRQSection: string;
+    MRQContent: any[];
 }
